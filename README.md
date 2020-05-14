@@ -2,11 +2,11 @@
 ![build with C](https://img.shields.io/badge/Build%20with-C-green) ![version](https://img.shields.io/badge/Version-1.0-brightgreen)  		
 ![for linux's users](https://img.shields.io/badge/made%20for-Linux-orange) ![for OSX's users](https://img.shields.io/badge/made%20for-OSX-blue)
 
-This RPG is maid in C with the CSFML.
-It's a basic game with a quest, combat, and progression system.
+This RPG is made in C with the CSFML.
+It's a basic game with a quest, combat and progression system.
 
 The goal of this game is to reach the level 10 and defeat the final boss.
-Be aware, if you loose more than 3 matchs is the GameOver.
+Be aware, if you loose more than 3 matchs that's GameOver.
 
 ## How to start
 We will see how to manage for get and launch the game.
@@ -15,7 +15,7 @@ We will see how to manage for get and launch the game.
     git clone https://github.com/Rgascoin/my_rpg.git
     
 #### Installation
-Once you get the repo, the only next step for you is to use the makefile for building it.
+Once you get the repo, the only next step is to use the makefile for building it.
 
     make re
     
@@ -30,10 +30,10 @@ Our main goal in this project was to implement as much possible typical RPG's fe
 ### Map
 You can move freely in the city, interact with some PNJ and Buildings like the arena or the rest room.
 
-![map preview](https://zupimages.net/up/20/20/yx1q.png)
+![map preview](https://s4.gifyu.com/images/ezgif.com-video-to-gif-3f027a03c906ba97c.gif)
 
 ### Combat system
-In the arena you can fight against many enemies, there are randomly generate based on your level. with this, them stats matching with your owns and the game never felt too easy or too hard.
+In the arena you can fight against many enemies, there are randomly generate based on your level. with this, them stats are matching with your owns and the game never feel too easy or too hard.
 
 ![Fighting gif](https://s4.gifyu.com/images/ezgif.com-video-to-gif78c13f7357f3c555.gif)
 
@@ -50,10 +50,10 @@ Their's 3 different statistics type as :
  - Agility
  - Resistance
 
-All this stats as different utilities in the game that's helping you to reach the end of the game.
+All those stats have different behavior in the game that's helping you to reach it's end.
 
 ### Questing
-Their's a PNJ in the North-West of the city who can give you some quests.
+Their's a PNJ in the North-West of the city who can gives you some quests.
 Once you finished a quest go back to her and claim your reward.
 
 ![Quest gif](https://s4.gifyu.com/images/ezgif.com-video-to-gif-20a01cd32636a8e12.gif)
@@ -64,7 +64,7 @@ Once you finished a quest go back to her and claim your reward.
 To build this game we past a lot of time to build a cool game engine.
 You can find it in game files locate at : `/lib/my_cgraph`
 
-If you want more information on it you can check this [link](https://github.com/MrZalTy/my_cgraph)
+If you want more information on it feel free to check this [link](https://github.com/MrZalTy/my_cgraph)
 
 ### Configuration Files
 To place assets on scene for building this game, we created some specials files named `configuration.rll`.
