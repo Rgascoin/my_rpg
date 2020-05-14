@@ -1,0 +1,56 @@
+texture: name:A path:assets/textures/core/colision.png visibility:false
+texture: name:background path:assets/textures/core/city.png visibility:true
+texture: name:hp path:assets/textures/core/hp.png visibility:true
+texture: name:coin path:assets/textures/core/coin.png visibility:true
+texture: name:xp path:assets/textures/core/xp.png visibility:true
+texture: name:quest_chara path:assets/textures/core/rest_chara.png visibility:true
+texture: name:player_s path:assets/textures/core/chara_s.png visibility:false
+texture: name:player_n path:assets/textures/core/chara_n.png visibility:false
+texture: name:player_e path:assets/textures/core/chara_e.png visibility:false
+texture: name:player_w path:assets/textures/core/chara_w.png visibility:false
+texture: name:player_idle path:assets/textures/core/chara_idle.png visibility:true
+texture: name:arena_buble path:assets/textures/core/arena_buble.png visibility:true
+texture: name:rest_room path:assets/textures/core/rest_room.png visibility:true
+button: name:A texture:A callback:nothing size.x:50 size.y:10 pos.x:230 pos.y:245
+button: name:B texture:A callback:nothing size.x:50 size.y:10 pos.x:230 pos.y:309
+button: name:C texture:A callback:nothing size.x:50 size.y:10 pos.x:311 pos.y:245
+button: name:D texture:A callback:nothing size.x:50 size.y:10 pos.x:311 pos.y:309
+button: name:E texture:A callback:nothing size.x:50 size.y:10 pos.x:391 pos.y:245
+button: name:F texture:A callback:nothing size.x:50 size.y:10 pos.x:391 pos.y:309
+button: name:G texture:A callback:nothing size.x:9 size.y:399 pos.x:180 pos.y:170
+button: name:H texture:A callback:nothing size.x:850 size.y:9 pos.x:180 pos.y:170
+button: name:I texture:A callback:nothing size.x:10 size.y:400 pos.x:995 pos.y:170
+button: name:J texture:A callback:nothing size.x:850 size.y:10 pos.x:180 pos.y:560
+button: name:K texture:A callback:nothing size.x:10 size.y:12 pos.x:251 pos.y:408
+button: name:L texture:A callback:nothing size.x:10 size.y:12 pos.x:331 pos.y:408
+button: name:M texture:A callback:nothing size.x:10 size.y:12 pos.x:411 pos.y:408
+button: name:N texture:A callback:nothing size.x:10 size.y:10 pos.x:180 pos.y:410
+button: name:O texture:A callback:nothing size.x:50 size.y:40 pos.x:550 pos.y:228
+button: name:P texture:A callback:nothing size.x:50 size.y:40 pos.x:631 pos.y:228
+button: name:Q texture:A callback:nothing size.x:137 size.y:40 pos.x:710 pos.y:228
+button: name:R texture:A callback:nothing size.x:80 size.y:40 pos.x:765 pos.y:268
+button: name:S texture:A callback:nothing size.x:90 size.y:2 pos.x:850 pos.y:242
+button: name:T texture:A callback:nothing size.x:90 size.y:2 pos.x:850 pos.y:242
+button: name:U texture:A callback:nothing size.x:90 size.y:2 pos.x:850 pos.y:325
+button: name:V texture:A callback:nothing size.x:13 size.y:82 pos.x:940 pos.y:244
+button: name:W texture:A callback:nothing size.x:101 size.y:50 pos.x:693 pos.y:402
+button: name:X texture:A callback:nothing size.x:60 size.y:20 pos.x:820 pos.y:402
+button: name:Y texture:A callback:nothing size.x:55 size.y:20 pos.x:915 pos.y:402
+button: name:Z texture:A callback:nothing size.x:80 size.y:80 pos.x:575 pos.y:385
+button: name:[ texture:A callback:nothing size.x:20 size.y:25 pos.x:450 pos.y:225
+texture: name:quest_empty path:assets/textures/core/quest_no_more.png visibility:false
+texture: name:quest_ask path:assets/textures/core/quest_ask.png visibility:false
+texture: name:quest_buble_01 path:assets/textures/core/quest_bubble_01.png visibility:false
+texture: name:quest_buble_02 path:assets/textures/core/quest_bubble_02.png visibility:false
+texture: name:quest_complete_buble path:assets/textures/core/quest_complete_bubble.png visibility:false
+texture: name:player_face path:assets/textures/core/face.png visibility:false
+texture: name:rest_buble path:assets/textures/core/rest_buble.png visibility:true
+texture: name:rest_chara path:assets/textures/core/rest_chara.png visibility:true
+texture: name:rest_face path:assets/textures/core/rest_face.png visibility:true
+texture: name:inv path:assets/textures/core/inv.png visibility:true
+texture: name:glove path:assets/textures/core/glove.png visibility:false
+texture: name:bandage path:assets/textures/core/bandage.png visibility:false
+text: name:player_hp font:assets/fonts/font/my_font.TTF str:15/15 pos.x:170 pos.y:228
+text: name:player_gold font:assets/fonts/font/my_font.TTF str:29 pos.x:170 pos.y:280
+text: name:player_xp font:assets/fonts/font/my_font.TTF str:30/100 pos.x:170 pos.y:255
+audio: name:bracket path:assets/sound/main_music.ogg

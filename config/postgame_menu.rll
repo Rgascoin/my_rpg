@@ -1,0 +1,4 @@
+texture: name:bg path:assets/textures/menu/main_menu.png visibility:true
+texture: name:btn_quit path:assets/textures/menu/btn_quit.png visibility:false
+button: name:quit texture:btn_quit callback:quit_game size.x:264 size.y:68 pos.x:510 pos.y:400
+text: name:win_text font:assets/fonts/font/my_font.TTF  str:none pos.x:510 pos.y:300 

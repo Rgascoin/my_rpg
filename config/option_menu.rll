@@ -1,0 +1,7 @@
+texture: name:bg path:assets/textures/menu/options_menu.png visibility:true
+texture: name:btn_map path:assets/textures/menu/btn_maps.png visibility:false
+texture: name:btn_sound path:assets/textures/menu/btn_sounds.png visibility:false
+texture: name:btn_back path:assets/textures/menu/btn_back.png visibility:false
+button: name:map texture:btn_map callback:option_display_map size.x:264 size.y:68 pos.x:510 pos.y:320
+button: name:sound texture:btn_sound callback:option_sound size.x:264 size.y:68 pos.x:510 pos.y:400
+button: name:back texture:btn_back callback:back_to_menu size.x:264 size.y:68 pos.x:510 pos.y:480

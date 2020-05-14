@@ -1,0 +1,19 @@
+text: name:title font:assets/fonts/font/my_font.TTF str:Inventory pos.x:485 pos.y:30
+text: name:name font:assets/fonts/font/my_font.TTF str:astek pos.x:485 pos.y:80
+text: name:pv font:assets/fonts/font/my_font.TTF str:Pv pos.x:50 pos.y:100
+text: name:strength font:assets/fonts/font/my_font.TTF str:Strength pos.x:50 pos.y:200
+text: name:agility font:assets/fonts/font/my_font.TTF str:Agility pos.x:50 pos.y:300
+text: name:resistance font:assets/fonts/font/my_font.TTF str:Resistance pos.x:50 pos.y:400
+text: name:desc_punch font:assets/fonts/font/my_font.TTF str:attack pos.x:750 pos.y:200
+text: name:desc_kick font:assets/fonts/font/my_font.TTF str:attack pos.x:750 pos.y:300
+text: name:desc_upercut font:assets/fonts/font/my_font.TTF str:attack pos.x:760 pos.y:400
+texture: name:background path:assets/textures/inventory/bg.png visibility:true
+texture: name:circle1 path:assets/textures/inventory/circle.png visibility:true
+texture: name:circle2 path:assets/textures/inventory/circle.png visibility:true
+texture: name:circle3 path:assets/textures/inventory/circle.png visibility:true
+texture: name:cross1 path:assets/textures/inventory/cross.png visibility:false
+texture: name:cross2 path:assets/textures/inventory/cross.png visibility:false
+texture: name:cross3 path:assets/textures/inventory/cross.png visibility:false
+texture: name:punch_hud path:assets/textures/fight/punch_hud.png visibility:true
+texture: name:kick_hud path:assets/textures/fight/kick_hud.png visibility:true
+texture: name:upercut_hud path:assets/textures/fight/upercut_hud.png visibility:true

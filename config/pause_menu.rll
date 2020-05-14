@@ -1,0 +1,7 @@
+texture: name:bg path:assets/textures/menu/main_menu.png visibility:true
+texture: name:btn_resume path:assets/textures/menu/btn_resume.png visibility:false
+texture: name:btn_back path:assets/textures/menu/btn_back.png visibility:false
+texture: name:btn_quit path:assets/textures/menu/btn_quit.png visibility:false
+button: name:resume texture:btn_resume callback:launch_game size.x:264 size.y:68 pos.x:510 pos.y:320
+button: name:back texture:btn_back callback:back_to_menu size.x:264 size.y:68 pos.x:510 pos.y:400
+button: name:quit texture:btn_quit callback:quit_game size.x:264 size.y:68 pos.x:510 pos.y:480

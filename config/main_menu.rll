@@ -1,0 +1,9 @@
+texture: name:bg path:assets/textures/menu/main_menu.png visibility:true
+texture: name:btn_play path:assets/textures/menu/btn_play.png visibility:false
+texture: name:btn_howtoplay path:assets/textures/menu/btn_howtoplay.png visibility:false
+texture: name:btn_options path:assets/textures/menu/btn_options.png visibility:false
+texture: name:btn_quit path:assets/textures/menu/btn_quit.png visibility:false
+button: name:play texture:btn_play callback:launch_game size.x:264 size.y:68 pos.x:510 pos.y:320
+button: name:howtoplay texture:btn_howtoplay callback:main_howtoplay_button size.x:264 size.y:68 pos.x:510 pos.y:400
+button: name:options texture:btn_options callback:main_option_button size.x:264 size.y:68 pos.x:510 pos.y:480
+button: name:quit texture:btn_quit callback:quit_game size.x:264 size.y:68 pos.x:510 pos.y:560

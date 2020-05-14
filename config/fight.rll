@@ -1,0 +1,26 @@
+texture: name:bg path:assets/textures/fight/bg.jpg visibility:true
+texture: name:cross path:assets/textures/fight/cross.png visibility:false
+texture: name:attack_hud path:assets/textures/fight/attack_hud.png visibility:false
+texture: name:block_hud path:assets/textures/fight/block_hud.png visibility:false
+texture: name:punch_hud path:assets/textures/fight/punch_hud.png visibility:false
+texture: name:kick_hud path:assets/textures/fight/kick_hud.png visibility:false
+texture: name:upercut_hud path:assets/textures/fight/upercut_hud.png visibility:false
+texture: name:back_hud path:assets/textures/fight/back_hud.png visibility:false
+texture: name:player path:assets/textures/fight/player.png visibility:true
+texture: name:enemie1 path:assets/textures/fight/enemie1.png visibility:true
+texture: name:enemie2 path:assets/textures/fight/enemie2.png visibility:true
+texture: name:enemie3 path:assets/textures/fight/enemie3.png visibility:true
+texture: name:continue_hud path:assets/textures/fight/continue.png visibility:false
+button: name:attack_hud texture:attack_hud callback:show_attack size.x:100 size.y:40 pos.x:830 pos.y:600
+button: name:block_hud texture:block_hud callback:fight_block size.x:100 size.y:40 pos.x:330 pos.y:600
+button: name:punch_hud texture:punch_hud callback:fight_punch size.x:100 size.y:40 pos.x:-200 pos.y:-100
+button: name:kick_hud texture:kick_hud callback:fight_kick size.x:100 size.y:40 pos.x:-200 pos.y:-100
+button: name:upercut_hud texture:upercut_hud callback:fight_upercut size.x:100 size.y:40 pos.x:-200 pos.y:-100
+button: name:back_hud texture:back_hud callback:back_fight size.x:100 size.y:40 pos.x:-200 pos.y:-100
+button: name:continue_hud texture:continue_hud callback:back_to_game size.x:200 size.y:80 pos.x:-200 pos.y:-100
+text: name:player_name font:assets/fonts/font/my_font.TTF str:GENTIL pos.x:300 pos.y:100
+text: name:player_hp font:assets/fonts/font/my_font.TTF str:15/15 pos.x:50 pos.y:300
+text: name:enemie_name font:assets/fonts/font/my_font.TTF str:MECHANT pos.x:750 pos.y:100
+text: name:enemie_hp font:assets/fonts/font/my_font.TTF str:12/12 pos.x:1050 pos.y:300
+text: name:player_attack font:assets/fonts/font/my_font.TTF str:attack pos.x:50 pos.y:500
+text: name:enemie_attack font:assets/fonts/font/my_font.TTF str:attack pos.x:950 pos.y:500

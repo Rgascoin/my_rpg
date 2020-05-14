@@ -1,0 +1,14 @@
+text: name:title font:assets/fonts/font/my_font.TTF str:LEVELUP!! pos.x:485 pos.y:30
+text: name:levelinfo font:assets/fonts/font/my_font.TTF str:Lv1--To-->Lv2 pos.x:400 pos.y:80
+text: name:pv font:assets/fonts/font/my_font.TTF str:Pv pos.x:50 pos.y:200
+texture: name:arrow path:assets/textures/lvup/arrow.png visibility:false
+text: name:strength font:assets/fonts/font/my_font.TTF str:Strength pos.x:50 pos.y:300
+text: name:points font:assets/fonts/font/my_font.TTF str:PTS: pos.x:600 pos.y:200
+text: name:agility font:assets/fonts/font/my_font.TTF str:Agility pos.x:50 pos.y:400
+text: name:resistance font:assets/fonts/font/my_font.TTF str:Resistance pos.x:50 pos.y:500
+texture: name:background path:assets/textures/inventory/bg.png visibility:true
+texture: name:continue_hud path:assets/textures/fight/continue.png visibility:false
+button: name:up_str texture:arrow callback:up_str size.x:80 size.y:80 pos.x:710 pos.y:280
+button: name:up_agi texture:arrow callback:up_agi size.x:80 size.y:80 pos.x:710 pos.y:380
+button: name:up_resi texture:arrow callback:up_resi size.x:80 size.y:80 pos.x:710 pos.y:480
+button: name:end texture:continue_hud callback:end_levelup size.x:150 size.y:40 pos.x:710 pos.y:280
