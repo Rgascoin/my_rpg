@@ -1,6 +1,7 @@
 # My C RPG
 ![build with C](https://img.shields.io/badge/Build%20with-C-green) ![version](https://img.shields.io/badge/Version-1.0-brightgreen)  		
 ![for linux's users](https://img.shields.io/badge/made%20for-Linux-orange) ![for OSX's users](https://img.shields.io/badge/made%20for-OSX-blue)
+
 This RPG is maid in C with the CSFML.
 It's a basic game with a quest, combat, and progression system.
 
