@@ -30,19 +30,19 @@ Our main goal in this project was to implement as much possible typical RPG's fe
 ### Map
 You can move freely in the city, interact with some PNJ and Buildings like the arena or the rest room.
 
-![map preview](https://s4.gifyu.com/images/ezgif.com-video-to-gif-3f027a03c906ba97c.gif)
+![map preview](https://s6.gifyu.com/images/ezgif.com-video-to-gif-3f027a03c906ba97c.gif)
 
 ### Combat system
 In the arena you can fight against many enemies, there are randomly generate based on your level. with this, them stats are matching with your owns and the game never feel too easy or too hard.
 
-![Fighting gif](https://s4.gifyu.com/images/ezgif.com-video-to-gif78c13f7357f3c555.gif)
+![Fighting gif](https://s6.gifyu.com/images/ezgif.com-video-to-gif78c13f7357f3c555.md.gif)
 
 You can manage different types of attack, all are listed in your inventory visible by pressing the `i` key while you're in the city.
 
 ### Leveling System
 By grinding at the arena, you get experience point, that allow you too level-up once you get enough.
 
-![Level up gif](https://s4.gifyu.com/images/ezgif.com-video-to-gif-1ec408be78f2a112e.gif)
+![Level up gif](https://s6.gifyu.com/images/ezgif.com-video-to-gif-1ec408be78f2a112e-1.gif)
 
 Their's 3 different statistics type as :
 
@@ -56,7 +56,7 @@ All those stats have different behavior in the game that's helping you to reach 
 Their's a PNJ in the North-West of the city who can gives you some quests.
 Once you finished a quest go back to her and claim your reward.
 
-![Quest gif](https://s4.gifyu.com/images/ezgif.com-video-to-gif-20a01cd32636a8e12.gif)
+![Quest gif](https://s6.gifyu.com/images/ezgif.com-video-to-gif-20a01cd32636a8e12.gif)
 
 ## Technical features
 
